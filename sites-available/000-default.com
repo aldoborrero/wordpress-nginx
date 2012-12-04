@@ -1,8 +1,8 @@
 server {
-	listen        8080 default_server;
-	server_name   _;
+    listen        127.0.0.1:8080 default_server;
+    server_name   _;
 
-	include       error-pages.conf;
+    include       error-pages.conf;
 
-	return        403;
+    return        403;
 }

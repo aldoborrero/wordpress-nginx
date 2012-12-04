@@ -1,0 +1,13 @@
+# ------------------------------------------------------------------------------
+#	Virtual Host:
+#		- http://varnish.local
+#
+#	Info:
+#		- Only used to do probes with varnish
+# ------------------------------------------------------------------------------
+
+server {
+  server_name varnish.local;
+  listen      127.0.0.1:8080;
+  return      200;
+}
